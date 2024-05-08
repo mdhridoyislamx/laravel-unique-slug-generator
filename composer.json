@@ -1,0 +1,35 @@
+{
+    "name": "mdhridoyislam/laravel-unique-slug",
+    "description": "A simple but beautiful unique slug generator for Laravel eloquent model.",
+    "keywords": [
+        "laravel_unique_slug",
+        "laravel",
+        "laravel-unique-slug"
+    ],
+    "homepage": "https://github.com/mdhridoyislamx/laravel-unique-slug-generator",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hridoy\\LaravelUniqueSlug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mdhridoyislam"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hridoy\\LaravelUniqueSlug\\UniqueSlugServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Hridoy\\LaravelUniqueSlug\\UniqueSlug"
+            }
+        }
+    }
+}
